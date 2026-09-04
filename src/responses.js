@@ -12,7 +12,7 @@ const sendPage = (request, response, page) => {
 
 const getMessage = (request, response) =>{
     response.writeHead(200, { 'Content-Type': 'text/plain' });
-    response.write('Hello World');
+    response.write('What did you expect to find here?');
     response.end();
 }
 
